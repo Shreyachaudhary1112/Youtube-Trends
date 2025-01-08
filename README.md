@@ -135,7 +135,7 @@ to get accurate results, we need to set out hyperparameters properly. So, we use
 helps create interactive plots. For every model, we can find the hyperparameters using the sliders that we have added
 using this library. We then choose the hyperparameter that gives us the best results.
 
-![Architectural Diagram](images/Architectural_diagram.png "Architectural Diagram")
+![Architectural Diagram](images/Architecturaldiagram.png "Architectural Diagram")
 
 
 Evaluation of all these models involves calculating critical metrics such as Mean Squared Error (MSE) and Accuracy.
@@ -169,14 +169,14 @@ correlated with the other columns. This means that videos with more dislikes ten
 Overall, As there is a strong positive correlation between view_count, likes and comment_count, it indicated videos with more 
 views tend to have more likes and comments.
 
-![Correlationmapofentirefeatureset](images/Correlationmapofentirefeatureset.png "Correlation map of entire feature set ")
+![Correlationmapofentirefeatureset](images/correlationmapofentirefeatureset.png "Correlation map of entire feature set ")
 
 ![Correlationmapofselectedfeatureset](images/Correlationmapofselectedfeatureset.png "Correlation map of selected feature set ")
 
 
 e. View Velocity Prediction: After tuning the hyperparameters and training the models, we observed the following-
 
-![ActualvsPredictedViewvelocity](images/actualvspredictedviewvelocity.png "Actual vs Predicted View velocity")
+![ActualvsPredictedViewvelocity](images/actualvspredictedvelocity.png "Actual vs Predicted View velocity")
 
 We can see the difference between accuracies of the model which can be justified as-
 The Random Forest model achieves an extremely high accuracy. Despite its high accuracy, the model exhibits a low
@@ -196,7 +196,7 @@ combined model was - 83.66
 The scatter plot (Fig 9) compares actual and predicted view velocity of the new ensemble model. Also, we then used this new model
  to get the videos that it thinks will be trending in 2023(Fig 10).
 
- ![ResultingToptrendingvideos](images/Resultingtoptrendingvideos.png "Resulting Top trending videos for 2023")
+ ![ResultingToptrendingvideos](images/resultingtoptrendingvideos.png%20.png "Resulting Top trending videos for 2023")
 
 
 ## Conclusion
